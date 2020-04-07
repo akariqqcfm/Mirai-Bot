@@ -11,8 +11,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Không muốn làm mà đòi có ăn') {
-    	message.reply('Thì chỉ có ăn đầu buồi ăn Tú');
+    if (message.content === 'UwU') {
+    	message.reply('OwO');
   	}
 });
 
