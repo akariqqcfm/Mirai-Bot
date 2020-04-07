@@ -8,6 +8,8 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
+});
+
 client.on('message', message => {
     if (message.content === 'Không muốn làm mà đòi có ăn') {
     	message.reply('Thì chỉ có ăn đầu buồi ăn Tú');
